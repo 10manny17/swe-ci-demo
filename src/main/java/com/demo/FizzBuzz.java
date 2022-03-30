@@ -40,6 +40,9 @@ public class FizzBuzz {
 					}
 					s += "Fizz, ";
 				} else {
+					if (i < nums.length - 1) {
+						s += String.valueOf(nums[i] + ", ");
+					}
 					s += String.valueOf(nums[i]);
 				}
 			}
