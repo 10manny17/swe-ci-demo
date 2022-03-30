@@ -25,13 +25,13 @@ public class FizzBuzz {
 		for (int i = 0; i < nums.length; i++) {
 			if (nums[i] % 15 == 0) {
 				if (i < nums.length - 1) {
-					s += "FizzBuzz,";
+					s += "FizzBuzz, ";
 				}
 				s += "FizzBuzz";
 			} else if (nums[i] % 5 == 0) {
 				if (i < nums.length - 1) {
 					if (i < nums.length - 1) {
-						s += "Buzz,";
+						s += "Buzz, ";
 					}
 					s += "Buzz,";
 				} else if (nums[i] % 3 == 0) {
